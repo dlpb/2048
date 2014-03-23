@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: url('../img/bg.png');
+  color: #FFF8DC;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -56,7 +56,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #142028;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -151,7 +151,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
+  background: #142028;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -227,7 +227,8 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: url('../img/sprite.png') -1177px 0;
+}
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -361,7 +362,7 @@ hr {
         font-size: 0px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: url('../img/sprite.png') -854px 0;
+    background: url('../img/sprite.png') -856px 0;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
@@ -540,7 +541,7 @@ hr {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: #bbada0;
+    background: #877B52;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -768,7 +769,7 @@ hr {
     transition-property: top, opacity; }
     .btc-donate .address:after {
       position: absolute;
-      border-top: 10px solid #bbada0;
+      border-top: 10px solid #142028;
       border-right: 7px solid transparent;
       border-left: 7px solid transparent;
       content: "";
@@ -776,7 +777,7 @@ hr {
       left: 50%;
       margin-left: -7px; }
     .btc-donate .address code {
-      background-color: #bbada0;
+      background-color: #142028;
       padding: 10px 15px;
       width: 100%;
       border-radius: 3px;
